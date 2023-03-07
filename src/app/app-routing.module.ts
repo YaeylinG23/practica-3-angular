@@ -18,7 +18,31 @@ const routes: Routes = [
   {
     path: 'action-sheet',
     loadChildren: () => import('./pages/action-sheet/action-sheet.module').then( m => m.ActionSheetPageModule)
+  },  {
+    path: 'checkbox',
+    loadChildren: () => import('./pages/checkbox/checkbox.module').then( m => m.CheckboxPageModule)
   },
+  {
+    path: 'chip',
+    loadChildren: () => import('./pages/chip/chip.module').then( m => m.ChipPageModule)
+  },
+  {
+    path: 'content',
+    loadChildren: () => import('./pages/content/content.module').then( m => m.ContentPageModule)
+  },
+  {
+    path: 'date-time',
+    loadChildren: () => import('./pages/date-time/date-time.module').then( m => m.DateTimePageModule)
+  },
+  {
+    path: 'floating-action',
+    loadChildren: () => import('./pages/floating-action/floating-action.module').then( m => m.FloatingActionPageModule)
+  },
+  {
+    path: 'grid',
+    loadChildren: () => import('./pages/grid/grid.module').then( m => m.GridPageModule)
+  },
+
 ];
 
 @NgModule({
