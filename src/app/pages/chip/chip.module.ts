@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TabsPageRoutingModule } from './tabs-routing.module';
+import { ChipPageRoutingModule } from './chip-routing.module';
 
-import { TabsPage } from './tabs.page';
+import { ChipPage } from './chip.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
@@ -14,13 +14,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    TabsPageRoutingModule,
-<<<<<<< HEAD
+    ChipPageRoutingModule,
     ComponentsModule
-=======
-    ComponentsModule 
->>>>>>> 28ffdd60832f7afd6ec1093816d917b4a3f24184
   ],
-  declarations: [TabsPage]
+  declarations: [ChipPage]
 })
-export class TabsPageModule {}
+export class ChipPageModule {}
